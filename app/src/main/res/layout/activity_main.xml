@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/astroo"
     tools:context=".MainActivity">
 
     <ImageView
@@ -20,9 +21,20 @@
         android:layout_centerInParent="true"
         android:gravity="center"
         android:text="click the crystal ball"
-        android:textSize="25sp"
+        android:textColor="#4E4837"
+        android:textSize="21sp"
         android:textStyle="italic"
         android:typeface="serif" />
 
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="420dp"
+        android:layout_height="650dp"
+        android:gravity="center"
+        android:text="SONGS OF LANA"
+        android:textColor="#9F7F1F"
+        android:textSize="26sp"
+        android:textStyle="bold|italic"
+        android:typeface="serif" />
 
 </RelativeLayout>

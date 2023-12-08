@@ -8,6 +8,7 @@ import java.util.Random
 class MainActivity : AppCompatActivity() {
 
     lateinit var clicktext: TextView
+    lateinit var title: TextView
 
     val songs = arrayOf(
         "Art Deco",
@@ -55,6 +56,7 @@ class MainActivity : AppCompatActivity() {
         randomize = kotlin.random.Random
 
         clicktext = findViewById(R.id.clicktext);
+        title = findViewById(R.id.title);
 
         clicktext.setOnClickListener {
             clicktext.text = songs[randomize.nextInt(songs.size)]
