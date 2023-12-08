@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:layout_width="350dp"
+        android:layout_width="290dp"
         android:layout_height="350dp"
         android:layout_centerInParent="true"
         android:scaleType="centerInside"
@@ -32,7 +32,7 @@
         android:layout_height="650dp"
         android:gravity="center"
         android:text="SONGS OF LANA"
-        android:textColor="#9F7F1F"
+        android:textColor="#9C7C1D"
         android:textSize="26sp"
         android:textStyle="bold|italic"
         android:typeface="serif" />
